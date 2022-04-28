@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: 'Migra';
+    src: local('Migra'), url('./fonts/Migra-Semibold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Migra';
+    src: local('Migra'),
+        url('./fonts/Migra-SemiboldItalic.otf') format('opentype');
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
